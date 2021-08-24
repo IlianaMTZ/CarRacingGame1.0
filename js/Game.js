@@ -41,7 +41,6 @@ class Game {
           fill("red")
         else
           fill("black");
-
         display_position+=20;
         textSize(15);
         text(allPlayers[plr].name + ": " + allPlayers[plr].distance, 120,display_position)

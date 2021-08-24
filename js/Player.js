@@ -18,7 +18,7 @@ class Player {
     });
   }
 
-  update(){
+  update(){ // ES LO QUE VAMOS A AGREGAR EN LA BASE
     var playerIndex = "players/player" + this.index;
     database.ref(playerIndex).set({
       name:this.name,
